@@ -1,0 +1,6 @@
+az keyvault set-policy \
+    --subscription REPLACE-WITH-YOUR-SUBSCRIPTION-NAME-OR-ID \
+    --resource-group RESOURCE-GROUP-NAME \
+    --name "REPLACE-WITH-YOUR-KEY-VAULT-NAME" \
+    --spn YOUR-SERVICE-PRINCIPAL-NAME \
+    --secret-permissions get list
