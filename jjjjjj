@@ -1,0 +1,9 @@
+// server.js
+app.get('/hello', (req, res) => {
+  try {
+    res.send("Success!");
+  } catch(error) {
+    const err = JSON.stringify(error);
+    res.status(500).send(`Request error. ${err}`);
+  }
+});
