@@ -1,0 +1,4 @@
+az ad sp create-for-rbac \
+    --name SERVICE-PRINCIPAL-NAME \
+    --role Contributor \
+    --scopes "/subscriptions/SUBSCRIPTION_NAME_OR_ID/resourceGroups/RESOURCE-GROUP-NAME"
