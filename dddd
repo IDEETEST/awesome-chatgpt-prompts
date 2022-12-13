@@ -1,0 +1,4 @@
+az keyvault create \
+    --subscription REPLACE_WITH_YOUR_SUBSCRIPTION_NAME_OR_ID \
+    --resource-group REPLACE_WITH_YOUR_RESOURCE_GROUP_NAME \
+    --name REPLACE_WITH_YOUR_KEY_VAULT_NAME
